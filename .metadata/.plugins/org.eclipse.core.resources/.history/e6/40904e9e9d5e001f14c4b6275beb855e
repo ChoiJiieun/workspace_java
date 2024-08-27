@@ -1,0 +1,14 @@
+package ch12_exception;
+
+/**
+ * Class Name   : ExMethod
+ * Author       : GJ
+ * Created Date : 2024. 8. 20.
+ * Version      : 1.0
+ * Purpose      : exception
+ * Description  : 예외 처리와 예외처리 안한 메소드의 차이
+ */
+
+public class ExMethod {
+	
+}

@@ -1,0 +1,10 @@
+package practice.coffe;
+
+import java.util.ArrayList;
+
+import practice.bank.Account;
+
+public class Cafe {
+	ArrayList<Coffee> menuList = new ArrayList<Coffee>();
+
+}

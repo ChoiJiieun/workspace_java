@@ -1,0 +1,26 @@
+package ch10_extens_interface.family;
+
+// child는 parent를 상속받음 (extends)
+public class Child extends Parent{
+
+	public Child(String name, int age) {
+		super(name, age);
+	}
+
+	public Child() {
+		super();
+	}
+
+	@Override
+	public void sayHello() {
+		// TODO Auto-generated method stub
+		super.sayHello();
+	}
+
+	@Override
+	public String toString() {
+		return "Child [toString()=" + super.toString() + ", getName()=" + getName() + ", getAge()=" + getAge()
+				+ ", getClass()=" + getClass() + ", hashCode()=" + hashCode() + "]";
+	}
+	
+}

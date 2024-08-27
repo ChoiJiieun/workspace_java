@@ -1,0 +1,12 @@
+package ch11_java_api;
+
+public class ApiJson {
+
+	public static void main(String[] args) {
+		// upbit rest api
+		// json Javascript Object Notation
+		// 데이터를 저장하고 교환하는데 사용되는 경량 데이터 형식! 속성-값 쌍으로 이루어져 있음.
+		String allUrl = "https://api.upbit.com/v1/market/all";
+	}
+
+}

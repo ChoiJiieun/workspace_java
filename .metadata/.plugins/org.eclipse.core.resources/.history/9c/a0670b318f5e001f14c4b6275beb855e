@@ -1,0 +1,16 @@
+package ch11_java_api;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+public class ApiDate {
+	public static void main(String[] args) {
+		// 1. Date 클래스
+		// 1970년 1월 1일 자정(UTC)이후의 시간을 밀리초 단위로 표현
+		Date dateToday = new Date();
+		System.out.println(dateToday);
+		// 원하는 문자열 format 형태
+		SimpleDateFormat sdf = new SimpleDateFormat("yyyy년 MM월 dd일 HH시 mm분 ss초");
+		System.out.println(sdf.format(dateToday));
+	}
+}
